@@ -89,7 +89,6 @@
 .banner .banner-content p{
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 32;
     color:#FFFFFF ;
 }
 .b-btn{
@@ -156,4 +155,61 @@
     background-color: #F95555;
     border-radius: 50%;
     padding: 14px;
+}
+.solution .solution-container{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: 120px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.solution .solution-img{
+    height: 600px;
+    width: 600px;
+}
+.solution .the-solution {
+    height: 396px;
+    width: 700px;
+    margin: 102px 0px 102px 60px;
+    
+}
+.solution .the-solution h4{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;   
+    color: #30B868;
+}
+.solution .the-solution h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+    
+}
+.solution .the-solution p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+
+}
+.solution .the-solution .sol-list li{
+    list-style:none;
+    color:#001931 ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    gap: 6px;
+    padding-bottom: 16px;
+    display: flex;
+    
+}
+.solution .the-solution .check-img{
+    width: 20px;
+    height: 20px;
+    
+    
 }
