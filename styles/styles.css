@@ -109,6 +109,12 @@
 .banner-button{
    padding-top: 32px;
 }
+.banner-button .btn{
+    display: inline-flex;
+}
+.btn img{
+    padding-left: 10px;
+}
 .cards-section{
     width: 85%;
     max-width: 1360px;
@@ -252,4 +258,54 @@ main .early-access p{
 .early-access .btn{
     margin-top: 24px;
     margin-bottom: 16px;
+}
+.early-access button{
+    display: flex;
+    margin: 0 auto;
+}
+footer{
+    background-color: #001931;
+    margin-top: 120px;
+    height: 348px;
+}
+.footer-container{
+  
+    width: 85%;
+    max-width: 1360px;
+     margin: 0 auto;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+     
+}
+.social-links {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right:107px ;
+}
+.social-links a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.icons{
+    margin-top: 16px;
+    
+}
+.copyright{
+
+    margin-top: 80px;
+    margin-bottom:30px;
+    color: #FAFAFA;
+    text-align:center;
+    
+}
+.copyright p{
+    padding-top: 30px;
+}
+.copyright hr{
+    color: #E5E7EB;
+    opacity: 0.2;
 }
