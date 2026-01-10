@@ -36,7 +36,11 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+.box .btn{
     margin: 24px 0px;
+    
+
 }
 .logo-kv{
     margin: 16px 0;
@@ -101,6 +105,9 @@
     font-weight: 600;
     cursor: pointer;
     margin-left: 16px;
+}
+.banner-button{
+   padding-top: 32px;
 }
 .cards-section{
     width: 85%;
@@ -212,4 +219,37 @@
     height: 20px;
     
     
+}
+main .early-access{
+    width: 85%;
+    max-width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+main .early-access h2{
+    color: #001931;
+    font-size: 40px;
+    padding-top: 80px;
+}
+main .early-access h4{
+      font-size: 16px;
+      color: #627382;
+      line-height: 24px;
+      padding-top: 16px;
+      font-weight: 400;
+
+}
+main .early-access p{
+      font-size: 16px;
+      color: #627382;
+      line-height: 20px;
+      font-weight: 400;
+
+}
+.early-access .btn{
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
