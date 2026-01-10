@@ -309,3 +309,10 @@ footer{
     color: #E5E7EB;
     opacity: 0.2;
 }
+.btn:hover{
+    background-color: darkcyan;
+    color: #000000;
+}
+.b-btn:hover{
+    background-color: darkcyan;
+}
